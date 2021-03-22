@@ -49,8 +49,8 @@ class Spacecraft {
     name: string; 
     speedMph: number;
 
-    constructor(nameofSpacecraft: string, mph: number) {
-        this.name = nameofSpacecraft;
+    constructor(name: string, mph: number) {
+        this.name = name;
         this.speedMph = mph;
     }  
     
