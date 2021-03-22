@@ -24,9 +24,9 @@
 //console.log(`${spacecraftName} would take ${getDaysToLocation(kilometersToTheMoon)} days to get to Mars.`);
 // Part 4: Create a Spacecraft Class
 var Spacecraft = /** @class */ (function () {
-    function Spacecraft(nameofSpacecraft, mph) {
+    function Spacecraft(name, mph) {
         this.milesPerKilometer = 0.621;
-        this.name = nameofSpacecraft;
+        this.name = name;
         this.speedMph = mph;
     }
     Spacecraft.prototype.getDaysToLocation = function (kilometersAway) {

@@ -61,16 +61,17 @@ class Spacecraft {
         
         return daysToLocation;
     }
+    
 }
     
     //Instance of Spacecraft
     let spaceShuttle = new Spacecraft('Determination', 17500);
 
     //Print Days to Mars
-    let kilometersToMars = 225000000;
-    let kilometersToTheMoon = 384400;
-    console.log(`${spaceShuttle.name} would take ${spaceShuttle.getDaysToLocation(kilometersToMars)} days to get to Mars.`);
-    console.log(`${spaceShuttle.name} would take ${spaceShuttle.getDaysToLocation(kilometersToTheMoon)} days to get to the Moon.`);
+    // let kilometersToMars = 225000000;
+    // let kilometersToTheMoon = 384400;
+    // console.log(`${spaceShuttle.name} would take ${spaceShuttle.getDaysToLocation(kilometersToMars)} days to get to Mars.`);
+    // console.log(`${spaceShuttle.name} would take ${spaceShuttle.getDaysToLocation(kilometersToTheMoon)} days to get to the Moon.`);
     
     
 
